@@ -1,0 +1,27 @@
+{
+  "name": "backend-learning",
+  "version": "1.0.0",
+  "description": "backend learinign",
+  "homepage": "https://github.com/HeenaPanchal/backend-learning#readme",
+  "bugs": {
+    "url": "https://github.com/HeenaPanchal/backend-learning/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeenaPanchal/backend-learning.git"
+  },
+  "license": "ISC",
+  "author": "Heena Panchal",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14",
+    "pg": "^8.20.0"
+  }
+}
